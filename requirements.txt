@@ -1,0 +1,8 @@
+playwright
+pandas
+beautifulsoup4
+nest_asyncio
+ipykernel
+scikit-learn
+matplotlib
+seaborn
