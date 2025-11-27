@@ -36,7 +36,36 @@ We don't rely on just one brain. We use a **Voting Regressor**, which is like a 
 
 ---
 
-## 🚀 From Scrape to Insight: Example Outputs
+## � What We Predict & Classify
+
+This project is not just a price calculator; it's a comprehensive market analyst. Here are the three core questions it answers:
+
+### 1. 💵 Prediction (Regression)
+**Question**: *"What is the fair market value of this specific property?"*
+*   **Input**: 3 BHK, 1800 SqFt, Unfurnished, in **Shela**.
+*   **Model Output**: **₹ 85.4 Lakhs**
+*   **Real-World Application**: Helps buyers negotiate better deals and sellers set realistic asking prices.
+
+### 2. 🏷️ Classification (Categorization)
+**Question**: *"Is this locality Budget, Premium, or Luxury?"*
+*   **Input**: **Bodakdev** (Avg Price: ₹ 7,500/sqft) vs. **Vastral** (Avg Price: ₹ 3,200/sqft).
+*   **System Output**:
+    *   Bodakdev → **Luxury Tier**
+    *   Vastral → **Budget Tier**
+*   **Real-World Application**: Automatically segments the city for targeted marketing campaigns.
+
+### 3. 🧠 Strategic Classification (Insight)
+**Question**: *"Is this specific listing a Good Deal or a Bad Deal?"*
+*   **Input**: A 4 BHK in **Gota** listed for **₹ 1.5 Cr**.
+*   **Analysis**:
+    *   Locality Average for 4 BHK: ₹ 1.8 Cr
+    *   Discount: 16%
+*   **System Classification**: **✅ Undervalued (Great Deal)**
+*   **Real-World Application**: Instantly flags high-ROI investment opportunities for investors.
+
+---
+
+## �🚀 From Scrape to Insight: Example Outputs
 
 Here is exactly what the system produces at each stage:
 
